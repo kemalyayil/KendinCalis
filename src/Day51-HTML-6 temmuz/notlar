@@ -1,0 +1,21 @@
+
+*   < > arasina girene tag diye adlandirilir(<div>,<class> vs)
+*   html kodu ile baslayan html ile bitmelidir.
+*   html iskelet, Css derisi(dizayn , renk vs) ve java script beyin olarak dusunulebilir.
+*   html ikiye bolunmustur; head ve body
+*   head kisminda daha cok basliklar, body ise actual face olarak dusunulmelidir
+*   <div class= "uu"<   burada 'div' tag, ondan sonra gelene de 'attribute' deniyor.
+*   <br> tag in end tag i yok. <br> <br> bu sekilde yazarsak ayni line a ,alta iki bosluk birakir.
+*   <blockquote> ise paragraf boslugu koymaya yarar(indent)
+*   <!--  --> bu da comment out yapmak icin.
+*   <h1> dan <h6> kadar title ekeleyebiriliriz. h1 en buyuk punto ile yazilani,h6 ise en kucugu
+*   <hr width=""> duz cizgi ceker. "" icine numara yazip % isareti koymak lazim. bos birakirsak, tum cizgi ceker
+*   span ve div.... span div e gore daha smaller , az seyler iceirir.
+*   span is in-line, div is block-line... ornek olarak ; bi sira yazimiz var. ve biz yazi icerisindeki kucuk bir bolumu
+    kirmizi yapmak istiyoruz. bunu <span></span> ile yapiyoruz.
+             <P style="color: white;">
+                Testing <span style="color: red">span</span> in html!
+             </P>
+    bu sekilde oldugu zaman sira tumu ile beyaz , ama sadece 'span' kelimesi kirmizi
+
+*   <ul> un-ordered list. <ol> ordered list
