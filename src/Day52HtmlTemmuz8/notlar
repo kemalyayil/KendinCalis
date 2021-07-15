@@ -1,4 +1,4 @@
-One cikan konular
+-08 Temmuz 2021-
 *   Html is structure of our web site like skeleton.
 *   Html has 2 main parts. head (stores imports and titles), body(stores the actual element that we see in our website)
 *   <div> tag defines a division or section in an HTML document.
@@ -21,7 +21,7 @@ One cikan konular
     SONUC : En uste gelip  "Go to Bottom" a bastigimizda en alta; En alta gelip "Go to Top" a bastigimizda en uste cikmasi.
 
 *   <input> tag specifies an input field(username vs kutucugu).
-    <form> elementi     :
+    <form> elementi     : we store our input element
     <action> attribute  : user in girdigi bilgilerin gonderilecegi yeri tanimlar. mesela gmail de kullanici adi ve sifre
                           girdikten sonra, data base'den cagrilma hadisesi
 
@@ -30,3 +30,4 @@ One cikan konular
 
                           Burada onemli bi detay var. type... number yazarsak , number harici baska seye izin vermez
 
+*
