@@ -1,0 +1,32 @@
+One cikan konular
+*   Html is structure of our web site like skeleton.
+*   Html has 2 main parts. head (stores imports and titles), body(stores the actual element that we see in our website)
+*   <div> tag defines a division or section in an HTML document.
+*   hyperlinks = web sitelerinde bulunan linklere verilen addir.
+*   <a href="linki yapistir"> Web sitesinde gormek istedigin mesaj(click here tarzi) </a>
+*   Relative link olusturmak istiyorsak(Link= line 16) ayni paket icinde olusturmamiz gerekiyor
+    Out side it, we should provide full url.
+    Veya; package farkli olursa : paketIsmi/classIsmi.html yazmak gerekiyor. asagidaki gibi
+            <a href="relative/Links2.html"> Navigate to Links2 page</a>
+
+*   Hyperlink ler email ve telefon ekleme seceneklerini de barindirir.
+    Email       icin            <a href="mailto:blablablaa@bka.com"> Yazmak istedigimiz mesaj </a>
+    Telefon     icin            <a href="tel:12345">Yazmak istedigimiz mesaj </a>
+
+*   <a id="top" href="#bottom">Go to Bottom</a>             Sayfanin ustune
+    <a id="bottom" href="#bottom">Go to Top</a>             Sayfanin altina
+    Yukaridaki kodun cozumu : a(ey) tag inde id(top & bottom) olusturduk ve ayni zamanda tanimlamis olduk. sonrasinda gelen href HYPERLINK
+    icin di malum. yalniz burda farkli bi sey yaptik ve # kullanip id olarak belirledigimiz bottom ve top yerlestirdik
+    sonrasinda da gorunmesini istedigimiz mesaji yazdik.
+    SONUC : En uste gelip  "Go to Bottom" a bastigimizda en alta; En alta gelip "Go to Top" a bastigimizda en uste cikmasi.
+
+*   <input> tag specifies an input field(username vs kutucugu).
+    <form> elementi     :
+    <action> attribute  : user in girdigi bilgilerin gonderilecegi yeri tanimlar. mesela gmail de kullanici adi ve sifre
+                          girdikten sonra, data base'den cagrilma hadisesi
+
+    <label> tag         : olusturacagimiz kutucuktan once girilen text i icerir. input(kutu olusturan) ile beraber calisir
+                          <label> Text    : <input type="text" name="text"></label>
+
+                          Burada onemli bi detay var. type... number yazarsak , number harici baska seye izin vermez
+

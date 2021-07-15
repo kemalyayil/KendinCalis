@@ -8,7 +8,7 @@
 *   <br> tag in end tag i yok. <br> <br> bu sekilde yazarsak ayni line a ,alta iki bosluk birakir.
 *   <blockquote> ise paragraf boslugu koymaya yarar(indent)
 *   <!--  --> bu da comment out yapmak icin.
-*   <h1> dan <h6> kadar title ekeleyebiriliriz. h1 en buyuk punto ile yazilani,h6 ise en kucugu
+*   <h1> dan <h6> kadar title ekleyebiriliriz. h1 en buyuk punto ile yazilani,h6 ise en kucugu
 *   <hr width=""> duz cizgi ceker. "" icine numara yazip % isareti koymak lazim. bos birakirsak, tum cizgi ceker
 *   span ve div.... span div e gore daha smaller , az seyler iceirir.
 *   span is in-line, div is block-line... ornek olarak ; bi sira yazimiz var. ve biz yazi icerisindeki kucuk bir bolumu
