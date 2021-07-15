@@ -1,2 +1,22 @@
 -09 Temmuz 2021-
-*
+*   <label > Name : <input type="text" name="name" required> </label>
+    yukaridaki kod un sonunda yazdigimiz "required" ibaresi web sitelerinde secilmesi zorunlu olan yerleri yapmak icin
+    kullaniliyor. kullanici onu secmeden ilerleyemiyor
+
+*   <label> Do you agree? <input type="checkbox" name="agree"  required></label>
+    "checkbox" ise kullanicinin check etmesi gerekli olan bi kutucuk olusturuyor. sona koyulan requiered kelimesi ile
+    kullaniciyi onu secmeye zorlaniyor
+
+*   <label> Male <input type="radio" name="sex" value="male"></label>
+    <label> Female <input type="radio" name="sex" value="female"></label>
+    Yukardaki kisimda ' type="radio" ' denilmis. bu iki opsiyondan sadece birinin secilmesi mumkun olan durumlarda
+    kullaniliyor
+
+*   <select name="state">
+
+                <option value="1"> New Jersey</option>
+                <option value="2"> New York</option>
+                <option value="3"> Florida</option>
+                <option value="4"> Virginia</option>
+    </select>
+    Yukardaki olay ise bi kutucugun icine yerlestirilen nesnelerden birini secmeye yariyor.Buna dropdown list deniyor
