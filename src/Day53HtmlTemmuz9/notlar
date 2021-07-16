@@ -20,3 +20,35 @@
                 <option value="4"> Virginia</option>
     </select>
     Yukardaki olay ise bi kutucugun icine yerlestirilen nesnelerden birini secmeye yariyor.Buna dropdown list deniyor
+
+*   <label for="address">Address :</label> <br>
+              <textarea id="address" cols="50" rows="10"></textarea><br>
+    Yukardaki textarea ile yorum ekle tarzi sitelerde olan kutucuk olusturduk.
+
+*   <img src="html.png">                    bu sekilde sitemize foto ekleyebiliriz
+
+*   <img src="html.png" width="300px">      bu sekilde de cozunurlugunu ayarlayabiliriz
+
+*   <a href="https://techno.study">
+                <img src="logo.png">
+    yukardaki ise logo ya tiklayinca, ustundeki yazili olan linke baglaniyor
+
+*   Css bir dildir ve head kisminda yapacagimiz degisikliklerdir.'Css selector' ise aradigimiz elementi bulmamiza yarar.
+*   Css te dizaynla (<style>) alakali digisiklikler yapmak istedigimiz de HEAD'de yapiyoruz
+
+       <head>
+           <meta charset="UTF-8">
+           <title>base</title>
+
+           <style>
+               body { border: 10px solid red; }
+           </style>
+
+       </head>
+
+*   Css selectors u element bulmak icin kullaniriz.
+*   Css Selector'de  karakter bulmak istedigimizde "id" karakterini bulmak icin # yazip sonra aramak istedigimiz id'nin
+    ismini yazmaliyiz.... Ornek ; #logout ==> bu sekilde 'logout' adi altindaki id'leri aramis oluyoruz
+
+    id      ==>     #
+    class   ==>     .
