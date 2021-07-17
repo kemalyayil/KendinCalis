@@ -1,0 +1,20 @@
+3. ders - zaman : 23:45
+<input type="text" class="inputtext _55r1 _6luy" name="email"
+id="email" data-testid="royal_email"
+placeholder="Email or Phone Number" autofocus="1"
+aria-label="Email or Phone Number">
+
+3. ders - zaman : 27:11
+<div class="_6luy _55r1 _1kbt" id="passContainer">
+
+3. ders - zaman : 30:47
+<input type="hidden" autocomplete="off" name="login_source" value="comet_headerless_login">
+
+3. ders - zaman : 32:39
+<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy"
+name="login" data-testid="royal_login_button" type="submit" id="u_0_d_T0">Log In</button>
+
+3. ders - zaman : 36:00
+<div class="fb_content clearfix " id="content" role="main"><div>
+
+
