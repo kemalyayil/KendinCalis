@@ -16,4 +16,20 @@
                                     Yukardaki kod icin arama yapildiginda;
                                     "img + h1" ==> yazarsak, img 'dan hemen bir sonraki h1 oldugu icin bulacaktir.Yalniz;
                                     "img + p"  ==> yazarsak, imd' dan hemen sonra gelmedigi icin bulmayacaktir.
+                                    ONEMLI NOT = Degisiklik yapilmasi istendiginde, ilk  olan haricindekiler etkilenir.
+                                                 img + h1 {border: 3px solid red;} ==>  bu durumda sadece h1 da
+                                                                                   degisiklik olur.eger h1 tag inden sonra
+                                                                                   bir h1 daha varsa, o da etkilenir
 
+                    ~(tilde)    ==> For general sibling
+                                    <div>
+                                    <h1> Your name</h1>
+                                    <img src = pic1.png>
+                                    <img src = pic2.png>
+                                    <img src = pic3.png>
+                                    </div>
+                                    Aramayi h1 ~ img diye yaptigimizda, ordaki olan tum kardes tag'ler etkilenir.Yukardaki
+                                    durumda pic1,pic2 ve pic3 etkilenecek. cunku h1 tag i altinda, 3 sibling(kardesler)
+
+                    >           ==> For Direct children. anlamak icin direct children klosorune bak.
+                    ILK DERS BITTI
