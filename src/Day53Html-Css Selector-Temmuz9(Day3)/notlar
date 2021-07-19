@@ -54,7 +54,7 @@
     by class           ==>     .
 
     by tag name        ==>     tag name - bi elementin tag name ni yazilarak da bulunabilmesi. mesela "ul { background: lightblue; }" bu
-                               sekilde tum "ul" tag name ne sahip olan elementlerin backroung rengi mavi olacak
+                               sekilde tum "ul" tag name ne sahip olan elementlerin backround rengi mavi olacak
 
     by attribute name  ==>     ONEMLI DETAY : eger isim kismi tek kelime deilse ' ' icersine almak lazim.
 

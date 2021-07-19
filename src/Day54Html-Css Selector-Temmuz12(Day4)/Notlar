@@ -1,0 +1,19 @@
+-12 Temmuz 2021-
+*   Css selectors;
+                    #           ==> id
+                    .           ==> class
+                    (tag)       ==> tag aramak istedigimizde direk tag name ile ariyoruz (input[type=text])
+                                    input burada tag name oluyor. sadece input yazarsak, tag name i input olan
+                                    butun tag name leri bulacak.
+                    (attribute) ==> attribute aramak istedigmizde once tag name'ni yazip [] kullanip, attribute type'ni
+                                    girdikten sonra arama yapiyoruz. div[class=one] ==> div tag name, class=one ise att-
+                                    ribute
+
+                    +           ==> Adjacent Sibling= kendisinden hemen bir sonra gelen seyleri ararken kullanilir.
+                                    <img src=head.png>
+                                    <h1>Mr.Cengiz</h1>
+                                    <p>The one</p>
+                                    Yukardaki kod icin arama yapildiginda;
+                                    "img + h1" ==> yazarsak, img 'dan hemen bir sonraki h1 oldugu icin bulacaktir.Yalniz;
+                                    "img + p"  ==> yazarsak, imd' dan hemen sonra gelmedigi icin bulmayacaktir.
+
